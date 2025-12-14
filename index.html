@@ -160,9 +160,9 @@
             <button class="navbar-link" data-nav-link>Experience</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
@@ -722,10 +722,10 @@
         - #PORTFOLIO (if needed)
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="projects" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
@@ -737,15 +737,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Azure Devops</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Databricks</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>AI/ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Development</button>
             </li>
 
           </ul>
@@ -754,7 +750,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-select-value>Select category</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -769,15 +765,11 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Azure Devops</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Databricks</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>AI/ML</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Development</button>
               </li>
 
             </ul>
@@ -786,7 +778,97 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/DerrickDK/Building_GAN">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/icons/aiml.png" alt="Building Gan" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Building GAN</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="development">
+              <a href="https://github.com/DerrickDK/FertilizerApp">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/icons/fertilizer.png" alt="Fertilizer App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fertilizer App</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="development">
+              <a href="https://github.com/DerrickDK/LetsChitter">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/icons/chitter.png" alt="..." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Messaging App</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="development">
+              <a href="https://github.com/DerrickDK/intercept-ui">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/icons/intercept-logo.png" alt="Intercept Project" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Intercept Project</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="development">
+              <a href="https://github.com/DerrickDK/AndroidProjects">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/icons/movieapp.png" alt="Movie Rating App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Movie Rating App</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="development">
               <a href="#">
 
                 <figure class="project-img">
@@ -799,102 +881,12 @@
 
                 <h3 class="project-title">...</h3>
 
-                <p class="project-category">Azure Devops</p>
+                <p class="project-category">Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./img/icons/Preview.png" alt="..." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">...</h3>
-
-                <p class="project-category">Azure Devops</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./img/icons/Preview.png" alt="..." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">...</h3>
-
-                <p class="project-category">Azure Devops</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./img/icons/Preview.png" alt="..." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">...</h3>
-
-                <p class="project-category">Azure Devops</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./img/icons/Preview.png" alt="..." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">...</h3>
-
-                <p class="project-category">Azure Devops</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./img/icons/Preview.png" alt="..." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">...</h3>
-
-                <p class="project-category">Azure Devops</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
               <a href="#">
 
                 <figure class="project-img">
@@ -907,12 +899,12 @@
 
                 <h3 class="project-title">...</h3>
 
-                <p class="project-category">Azure Devops</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
               <a href="#">
 
                 <figure class="project-img">
@@ -925,12 +917,12 @@
 
                 <h3 class="project-title">...</h3>
 
-                <p class="project-category">Azure Devops</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Azure Devops">
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
               <a href="#">
 
                 <figure class="project-img">
@@ -943,10 +935,10 @@
 
                 <h3 class="project-title">...</h3>
 
-                <p class="project-category">Azure Devops</p>
+                <p class="project-category">AI/ML</p>
 
               </a>
-            </li>
+            </li> -->
 
           </ul>
 
