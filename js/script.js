@@ -14,7 +14,11 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
-
+// auto toggle sidebar on mobile 
+const mobileMediaQuery = window.matchMedia('(max-width: 768px)'); 
+const toggleSidebarOnMobile = (event) => { if (event.matches) { sidebar.classList.add('active'); } else { sidebar.classList.remove('active'); } }; 
+// Listen for changes and run on load 
+mobileMediaQuery.addListener(toggleSidebarOnMobile); toggleSidebarOnMobile(mobileMediaQuery)
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
